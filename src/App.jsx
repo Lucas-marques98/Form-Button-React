@@ -35,7 +35,7 @@ function Register(e){
       <h2>Olá {aluno}</h2>
       <button onClick={() => funcMudarNome ('Lucas Marques') }>Mudar nome</button><br/>
       <button onClick={MudarNome}>Aperte Aqui para mudar o nome novamente </button><br/>
-      <Nome aluno="Josefina Pereira" idade={30}/><br/>
+      <Nome aluno="Leandro Pereira" idade={30}/><br/>
     
     <form onSubmit={Register}>
       <h1>Cadastrando o Úsuario</h1>
