@@ -12,8 +12,7 @@ const [idade, setIdade] = useState('')
 const [user, setUser] = useState({})
 
 
-
-function funcMudarNome(nome){
+function funcMudarNome(nome){ // usando function e useState com Parametros
   setAluno(nome)
 }
 function MudarNome(){
@@ -35,7 +34,7 @@ function Register(e){
       <h2>Olá {aluno}</h2>
       <button onClick={() => funcMudarNome ('Lucas Marques') }>Mudar nome</button><br/>
       <button onClick={MudarNome}>Aperte Aqui para mudar o nome novamente </button><br/>
-      <Nome aluno="Leandro Pereira" idade={30}/><br/>
+      <Nome aluno="Lucas Marques" idade={24}/><br/>
     
     <form onSubmit={Register}>
       <h1>Cadastrando o Úsuario</h1>
